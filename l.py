@@ -6,7 +6,7 @@ nlp = spacy.load('en_core_web_sm')
 
 def check_ai_generated(text):
     """
-    This function checks a given text for unicode spaces and non-English words 
+    This function checks a given text for unicode spaces and non-English letters 
     and highlights them for easy identification.
     """
     
